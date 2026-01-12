@@ -19,14 +19,14 @@ Follow these steps to set up and run the frontend development server:
 
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/adhikarisanjib/dkn_mobile_web_assignment.git
+git clone https://github.com/lalkrishnasubedi04/mobileweb_backend.git
 ```
 
 #### 2. Navigate to Backend Directory
 
 
 ```bash
-cd backend
+cd mobileweb_backend
 ```
 
 #### 3. Install Dependencies
@@ -37,7 +37,7 @@ uv sync
 
 #### 4. Activate Virtual Environment
 ```bash
-source .venv/bin/activate
+venv\Scripts\activate
 ```
 
 #### 5. Start Development Server
