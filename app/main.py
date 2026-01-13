@@ -1,12 +1,12 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from router import router
-from app.router import router
+
+
 from app.database import Base, engine
+from app.router import router
 from database import Base, engine
 from fastapi import FastAPI
-from .router import router
 
 
 import models
